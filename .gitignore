@@ -1,0 +1,5 @@
+.idea/
+build/
+.gradle/
+.java-version
+.DS_Store

@@ -35,6 +35,6 @@ suspend fun newRoutine() {
 // coroutine은 스스로 자리를 양보(yield)할 수 있다(비선점형)
 // 동시성: 한 번에 한 가지 일만 할 수 있지만, 아주 빠르게 작업이 전환되어 동시에 하는 것처럼 보이는 것
 
-suspend fun printWithThread(str: Any) {
+fun printWithThread(str: Any) {
     println("[${Thread.currentThread().name}] $str")
 }
